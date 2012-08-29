@@ -1,0 +1,29 @@
+{
+  "name": "nodeunit-jsdom",
+  "description": "jsdom wrapper for testing front-end js with nodeunit",
+  "version": "1.0.0",
+  "author": "nathanielksmith <nathanielksmith@gmail.com>",
+  "maintainers": [
+    "nathanielksmith <nathanielksmith@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nathanielksmith/nodeunit-jsdom.git"
+  },
+  "keywords": [
+    "testing",
+    "browser"
+  ],
+  "dependencies": {
+    "nodeunit": "0.7.4",
+    "jsdom": "0.2.15"
+  },
+  "devDependencies": {
+    "nodeunit": "0.7.4",
+    "jsdom": "0.2.15"
+  },
+  "scripts": { },
+  "engines": {
+    "node": "0.8.x"
+  }
+}
