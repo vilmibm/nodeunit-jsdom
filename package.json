@@ -20,7 +20,8 @@
   },
   "devDependencies": {
     "nodeunit": "0.7.4",
-    "jsdom": "0.2.15"
+    "jsdom": "0.2.15",
+    "mockrequire": "0.0.2"
   },
   "scripts": { },
   "engines": {
