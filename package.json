@@ -1,7 +1,7 @@
 {
   "name": "nodeunit-jsdom",
   "description": "jsdom wrapper for testing front-end js with nodeunit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "nathanielksmith <nathanielksmith@gmail.com>",
   "maintainers": [
     "nathanielksmith <nathanielksmith@gmail.com>"
@@ -23,7 +23,9 @@
     "jsdom": "0.2.15",
     "mockrequire": "0.0.2"
   },
-  "scripts": { },
+  "scripts": {
+    "test": "nodeunit tests"
+  },
   "engines": {
     "node": "0.8.x"
   }

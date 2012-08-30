@@ -1,6 +1,6 @@
 # nodeunit-jsdom
 
-_being a simple wrapper for nodeunit unit tests that allows for the testing and mocking of front-end code_
+_being a simple wrapper for nodeunit setUp functions that allows for the testing and mocking of front-end code_
 
 ## usage
 
@@ -28,7 +28,8 @@ _being a simple wrapper for nodeunit unit tests that allows for the testing and 
 
 ## tests
 
-nodeunit tests/test.js
+cd tests
+nodeunit test.js
 
 ## author
 

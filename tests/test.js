@@ -1,7 +1,7 @@
 var mockrequire = require('mockrequire')
 
 var mock_jsdom = function(env) {
-    return mockrequire('../lib/nodeunit-jsdom', {
+    return mockrequire('./lib/nodeunit-jsdom', {
         jsdom: { env: env }
     })
 }
