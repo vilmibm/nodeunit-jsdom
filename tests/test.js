@@ -55,15 +55,6 @@ exports.test_wrapper = {
         })
         test.done()
     },
-    test_bad_args: function(test) {
-        var jsdom_wrap = mock_jsdom(function(_, _, cb) {
-            throw 'should not get here'
-        })
-        test.throws(function() {
-            jsdom_wrap('', [])()
-        })
-        test.done()
-    },
     test_no_callback: function(test) {
         var jsdom_wrap = mock_jsdom(function(html, reqs, cb) {
             cb(null, 'window')
