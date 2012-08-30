@@ -1,7 +1,7 @@
 {
   "name": "nodeunit-jsdom",
   "description": "jsdom wrapper for testing front-end js with nodeunit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "nathanielksmith <nathanielksmith@gmail.com>",
   "maintainers": [
     "nathanielksmith <nathanielksmith@gmail.com>"

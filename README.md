@@ -8,8 +8,14 @@ _being a simple wrapper for nodeunit setUp functions that allows for the testing
 
         exports.test_ui = {
             setUp: jsdom_wrapper(
-                '<html><head></head><body><div id="cthulhu"></div></body></html>',
-                ['/path/to/jquery.js']
+                '<html><head></head><body><div id="cthulhu"></div></body></html>', [
+                    '/path/to/jquery.js',
+                    '/path/to/your/code.js'
+                ],
+                function(cb) {
+                    // additional setUp code
+                    cb()
+                }
             ),
             test_ajax_call: function(test) {
                 var post_called = false
