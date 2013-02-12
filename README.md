@@ -1,3 +1,6 @@
+# NOTE this is totally deprecated in favor of [nodeunit-b](https://github.com/nathanielksmith/nodeunit-b).
+
+
 # nodeunit-jsdom
 
 _being a simple wrapper for nodeunit setUp functions that allows for the testing and mocking of front-end code_
